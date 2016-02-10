@@ -41,28 +41,26 @@ li a:hover {
   position: relative;
 }
 
-.hoger {
-  color: white;
-  position: relative;
-}
+
 
 .image { 
   position: relative; 
-  width: 100%; /* for IE 6 */
+  width: 100%;
 }
 
 .rundbild {
   position: relative;
-  margin-top: -38%; 
-  margin-left: 18%;
+  margin-top: -38%;
+  margin-left: 43%; 
   z-index: 1;
   opacity: 10%;
 }
 
 h2 { 
   position: absolute; 
-  top: 360px; 
-  margin-left: 5%; 
+  margin-top: 56%;
+  margin-left: 28%; 
+
 }
 
 h2 span { 
@@ -76,6 +74,7 @@ h2 span {
 
 #sidebar {
   width: 46%;
+  height: 20%;
   margin-left: 5%;
   float: right;
   background-color: #DDD;
@@ -84,6 +83,6 @@ h2 span {
 .col-md-4 {
   color: white;
   position: absolute;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 10%;
 }
