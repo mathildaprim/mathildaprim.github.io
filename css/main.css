@@ -13,7 +13,7 @@ body {
 }
 
 ul li {
-  float: right;
+  position: center;
   list-style: none;
   padding: 12px;
   font-size: 15px;
@@ -23,7 +23,7 @@ ul li {
 }
  
 li a {
-  float: right;
+  position: center;
   list-style: none;
   padding: 12px;
   font-size: 15px;
@@ -41,8 +41,6 @@ li a:hover {
   position: relative;
 }
 
-
-
 .image { 
   position: relative; 
   width: 100%;
@@ -51,15 +49,15 @@ li a:hover {
 .rundbild {
   position: relative;
   margin-top: -38%;
-  margin-left: 43%; 
+  margin-left: 45%; 
   z-index: 1;
   opacity: 10%;
 }
 
 h2 { 
   position: absolute; 
-  margin-top: 56%;
-  margin-left: 28%; 
+  margin-top: 65%;
+  margin-left: 30%; 
 
 }
 
@@ -69,20 +67,5 @@ h2 span {
    letter-spacing: 7px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.3);
-   padding: 20px; 
-}
-
-#sidebar {
-  width: 46%;
-  height: 20%;
-  margin-left: 5%;
-  float: right;
-  background-color: #DDD;
-}
-
-.col-md-4 {
-  color: white;
-  position: absolute;
-  margin-top: 5%;
-  margin-left: 10%;
+   padding: 20px;
 }
