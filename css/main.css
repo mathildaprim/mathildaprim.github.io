@@ -5,11 +5,11 @@
 }
 
 .jumbotron {
-  background-color: blue;
+  
 }
 
 body {
-  background-color: grey;
+  background-color: blue;
 }
 
 ul li {
@@ -76,14 +76,14 @@ h2 span {
 
 #sidebar {
   width: 46%;
-  min-height: 280px;
   margin-left: 5%;
   float: right;
   background-color: #DDD;
 }
 
-#footer {
+.col-md-4 {
   color: white;
   position: absolute;
-  margin-top: 20%;
+  margin-top: 15%;
+  margin-left: 10%;
 }
