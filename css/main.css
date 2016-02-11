@@ -15,25 +15,26 @@ img {
   width: 180px;
   height: 180px;
   margin-top: 100px;
+
 }
 
 a {
   color: black;
   font-size: 16px;
   text-decoration: none;
-  font-family: helvetica;
-  letter-spacing: 4px;
-  position: relative;
-  margin-top: 5px;
+  font-family: helvetica, Sans-Serif;
+  letter-spacing: 2px;
+ 
 }
 
 a:hover {
   text-decoration: underline;
   color: black;
+  margin-top: 10px;
 }
 
 h2 { 
-  position: absolute; 
+
   margin-top: 30px;
   text-align: center;
 }
