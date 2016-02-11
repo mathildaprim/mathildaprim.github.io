@@ -1,15 +1,25 @@
+html {
+  min-height: 100%;
+  overflow: auto;
+}
+body {
+  min-height: 100%;
+  background-image: url('http://mathildaprim.github.io/bilder/bakgrund.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+
 #container{ /* --- styr hela sidan, bilden---*/
   width: 100%;
   text-align: center;
 }
-
-.jumbotron {
-  
+img {
+  border-radius: 9999px;
+  width:100px;
+  height: 100px;
 }
 
-body {
-  background-color: blue;
-}
 
 ul li {
   position: center;
@@ -37,23 +47,10 @@ li a:hover {
   position: relative;
 }
 
-.image { 
-  position: relative; 
-  width: 100%;
-}
-
-.rundbild {
-  position: relative;
-  margin-top: 8px;
-  margin-left: 45px; 
-  z-index: 1;
-  opacity: 10%;
-}
-
 h2 { 
   position: absolute; 
-  margin-top: 65%;
-  margin-left: 30%; 
+  margin-top: 65px;
+  margin-left: 340px; 
 
 }
 
