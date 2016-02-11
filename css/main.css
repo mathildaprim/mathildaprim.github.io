@@ -1,11 +1,13 @@
 #container{ /* --- styr hela sidan, bilden---*/
   width: 100%;
   text-align: center;
-  margin-top: -5px;
-  background-color: red;
 }
 
 .jumbotron {
+  
+}
+
+body {
   background-color: blue;
 }
 
@@ -14,10 +16,8 @@ ul li {
   list-style: none;
   padding: 12px;
   font-size: 15px;
-  margin-top: 1px;
   position: relative;
   color: white;
-  z-index: -1;
 }
  
 li a {
@@ -26,8 +26,7 @@ li a {
   padding: 12px;
   font-size: 15px;
   color: white;
-  text-decoration: none;
-  margin-top: 1px;  
+  text-decoration: none;  
   position: relative;
 }
  
@@ -35,7 +34,6 @@ li a:hover {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  margin-top: 1px;
   position: relative;
 }
 
@@ -47,15 +45,15 @@ li a:hover {
 .rundbild {
   position: relative;
   margin-top: 8px;
-  margin-left: 50px; 
+  margin-left: 45px; 
   z-index: 1;
   opacity: 10%;
 }
 
 h2 { 
   position: absolute; 
-  margin-top: 1px;
-  margin-left: 380px; 
+  margin-top: 65%;
+  margin-left: 30%; 
 
 }
 
