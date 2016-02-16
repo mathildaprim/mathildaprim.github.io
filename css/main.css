@@ -8,6 +8,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  background-position: fixed;
+  background-attachment: fixed;
 }
 
 .navbar-custom {
@@ -73,12 +75,10 @@ img {
 
 }
 .jumbotron {
-  background-color: #fb8d5c;
   min-height: 100%;
-  margin-top: 180px;
-  opacity: 0.8;
+  margin-top: 280px;
+  
   height: 440px;
-
 
 }
 
@@ -111,8 +111,37 @@ h2 span {
    background: rgba(0, 0, 0, 0.3);
    padding: 20px;
 }
-.jumbotron p {
-  text-align: center;
+.col-sm-6 {
+  float: none;
   display: block;
+  margin: 0 auto;
+
+}
+.om {
+  background: #fdb472;
+  opacity: 0.8;
+}
+
+.kontakt {
+  background-color: #fdb472;
+  opacity: 0.8;
+
+}
+
+.skills {
+  background-color: #fdb472;
+  opacity: 0.8;
+
+}
+
+.telefon {
+  font-size: 30px;
+}
+.linkedin {
+  font-size: 30px;
+}
+
+.mail {
+  font-size: 30px;
 
 }
