@@ -2,6 +2,7 @@ html {
   min-height: 100%;
   overflow: auto;
 }
+
 body {
   min-height: 100%;
   background-image: url('http://mathildaprim.github.io/bilder/bakgrund.png');
@@ -16,8 +17,9 @@ body {
     margin-bottom: 0;
     margin-top: 20px;
     background-color: rgba(255,255,255,.9);
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    opacity: 0.7;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    font-family: helvetica, Sans-Serif;
     letter-spacing: .25px;
     color: #000;
 
@@ -77,25 +79,22 @@ img {
 .jumbotron {
   min-height: 100%;
   margin-top: 280px;
-
-
 }
 
 a {
-  color: black;
-  font-size: 16px;
+  font-size: 22px;
   text-decoration: none;
+  color: #575757;
   font-family: helvetica, Sans-Serif;
-  letter-spacing: 2px;
- 
+
 }
 
 a:hover {
-  text-decoration: underline;
-  color: black;
-  margin-top: 10px;
-}
+  text-decoration: none;
+  color: #575757;
+  font-family: helvetica, Sans-Serif;
 
+}
 h2 { 
 
   margin-top: 30px;
@@ -138,8 +137,11 @@ h2 span {
 .telefon {
   font-size: 30px;
 }
-.linkedin {
+.linkedinbild {
   font-size: 30px;
+}
+.linkedintext {
+  font-size: 20px;
 }
 
 .mail {
