@@ -77,8 +77,7 @@ img {
 .jumbotron {
   min-height: 100%;
   margin-top: 280px;
-  
-  height: 440px;
+
 
 }
 
@@ -119,20 +118,22 @@ h2 span {
 }
 .om {
   background: #fdb472;
-  opacity: 0.8;
+  opacity: 0.7;
+  height: 440px;
+  margin: 0 auto;
+}
+.skills {
+  background-color: #fdb472;
+  opacity: 0.7;
+
 }
 
 .kontakt {
   background-color: #fdb472;
-  opacity: 0.8;
+  opacity: 0.7;
 
 }
 
-.skills {
-  background-color: #fdb472;
-  opacity: 0.8;
-
-}
 
 .telefon {
   font-size: 30px;
