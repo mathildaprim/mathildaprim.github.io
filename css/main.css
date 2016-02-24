@@ -69,16 +69,21 @@ body {
     background-color: rgba(0,0,0,.1);
 }
 
-img {
-  border-radius: 9999px;
-  width: 180px;
-  height: 180px;
-  margin-top: 100px;
+.circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 
 }
 .jumbotron {
   min-height: 100%;
-  margin-top: 280px;
+  margin-top: 120px;
 }
 
 a {
@@ -93,10 +98,9 @@ a:hover {
   text-decoration: none;
   color: #575757;
   font-family: helvetica, Sans-Serif;
-
 }
-h2 { 
 
+h2 { 
   margin-top: 30px;
   text-align: center;
 }
@@ -115,33 +119,80 @@ h2 span {
   margin: 0 auto;
 
 }
+
+.col-sm-5 {
+
+padding-left: 100px;
+
+}
+
+
+/*Styr sektionerna*/
+
+#om {
+ 
+
+}
+
+#skills {
+  
+
+
+}
+
+#kontakt {
+  
+
+
+}
+
+/*Styr de 3 jumbotronerna*/
 .om {
   background: #fdb472;
-  opacity: 0.7;
-  height: 440px;
-  margin: 0 auto;
+  opacity: 0.8;
 }
 .skills {
   background-color: #fdb472;
-  opacity: 0.7;
+  opacity: 0.8;
+
+}
+.portfolio {
+  background-color: #fdb472;
+  opacity: 0.8;
 
 }
 
 .kontakt {
   background-color: #fdb472;
-  opacity: 0.7;
+  opacity: 0.8;
 
 }
 
 
+/*Styr de 3 bilderna i kontaktjumbotronen*/
 .telefon {
-  font-size: 30px;
+
+  height: 70px;
 }
-.linkedinbild {
-  font-size: 30px;
+
+.gubbe {
+  height: 70px;
 }
 
 .mail {
-  font-size: 30px;
+  height: 70px;
+
+}
+
+
+/*Styr de 2 bilderna i skillsjumbotronen*/
+.tabell {
+  width: 400px;
+
+}
+
+.intressen {
+  width: 400px;
+
 
 }
