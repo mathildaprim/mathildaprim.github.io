@@ -21,8 +21,6 @@ body {
     border-bottom: 1px solid rgba(0,0,0,.2);
     font-family: helvetica, Sans-Serif;
     letter-spacing: .25px;
-    color: #000;
-
 }
 
 .navbar-custom .navbar-brand {
@@ -70,7 +68,7 @@ body {
 }
 
 .circular {
-    width: 200px;
+    width: 180px;
     height: 200px;
     border-radius: 150px;
     -webkit-border-radius: 150px;
@@ -84,6 +82,13 @@ body {
 .jumbotron {
   min-height: 100%;
   margin-top: 120px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px; 
 }
 
 a {
@@ -113,16 +118,25 @@ h2 span {
    background: rgba(0, 0, 0, 0.3);
    padding: 20px;
 }
+
+h3 {
+  font-weight: underline;
+
+}
 .col-sm-6 {
   float: none;
   display: block;
   margin: 0 auto;
+  width: 80%;
 
 }
 .col-sm-5 {
 padding-left: 100px;
 }
 
+.portfolio {
+  text-align: left;
+}
 
 
 /*Styr sektionerna*/
@@ -132,7 +146,7 @@ padding-left: 100px;
 
 }
 
-#skills {
+#fardigheter {
   
 
 
@@ -146,22 +160,20 @@ padding-left: 100px;
 
 /*Styr de 3 jumbotronerna*/
 .om {
-  background: #fdb472;
   opacity: 0.8;
+  margin-top: 300px;
+
 }
-.skills {
-  background-color: #fdb472;
+.fardigheter {
   opacity: 0.8;
 
 }
 .portfolio {
-  background-color: #fdb472;
   opacity: 0.8;
 
 }
 
 .kontakt {
-  background-color: #fdb472;
   opacity: 0.8;
 
 }
@@ -183,14 +195,16 @@ padding-left: 100px;
 }
 
 
-/*Styr de 2 bilderna i skillsjumbotronen*/
+/*Styr de 2 bilderna i fardigheterjumbotronen*/
 .tabell {
   width: 400px;
+  margin-left: 60px;
 
 }
 
 .intressen {
   width: 400px;
+  margin-right: 10px;
 
 
 }
