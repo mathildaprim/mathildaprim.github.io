@@ -82,13 +82,15 @@ body {
 .jumbotron {
   min-height: 100%;
   margin-top: 120px;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   -ms-border-radius: 8px; 
+  box-shadow: 6px 6px 10px #b3b3b3;
+  background-color: white;
 }
 
 a {
@@ -127,7 +129,7 @@ h3 {
   float: none;
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 95%;
 
 }
 .col-sm-5 {
@@ -138,11 +140,28 @@ padding-left: 100px;
   text-align: left;
 }
 
+.bildklotterplank {
+  width: 60%;
+  float: right;
+}
+
+.bildiphone {
+  width: 20%;
+  float: right;
+  margin-right: 20%;
+
+}
+.bildfanbox {
+  width: 60%;
+  float: right;
+
+}
+
 
 /*Styr sektionerna*/
 
 #om {
-  
+
 
 }
 
@@ -160,21 +179,20 @@ padding-left: 100px;
 
 /*Styr de 3 jumbotronerna*/
 .om {
-  opacity: 0.8;
   margin-top: 300px;
 
 }
 .fardigheter {
-  opacity: 0.8;
+
 
 }
 .portfolio {
-  opacity: 0.8;
+
 
 }
 
 .kontakt {
-  opacity: 0.8;
+
 
 }
 
