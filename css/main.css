@@ -13,59 +13,12 @@ body {
   background-attachment: fixed;
 }
 
-.navbar-custom {
-    margin-bottom: 0;
-    margin-top: 20px;
-    background-color: rgba(255,255,255,.9);
-    opacity: 0.7;
-    border-bottom: 1px solid rgba(0,0,0,.2);
-    font-family: helvetica, Sans-Serif;
-    letter-spacing: .25px;
+#myNavbar {
+    border-radius: 0px 0px 7px 7px;
+    color: black;
+    background-color: white;
 }
 
-.navbar-custom .navbar-brand {
-    font-size: 32px;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-}
-
-.navbar-custom .btn{
-    padding: 6px 12px;
-}
-
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.navbar-custom a {
-    font-size: 18px;
-    color: #000;
-}
-
-.navbar-custom .nav li.active {
-    outline: none;
-}
-
-.navbar-custom .nav li.active a {
-    color: #700774;
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(0,0,0,.1);
-}
 
 .circular {
     width: 180px;
@@ -101,12 +54,10 @@ a {
 
 }
 
-a:hover {
-  text-decoration: none;
-  color: #575757;
-  font-family: helvetica, Sans-Serif;
-}
+.portfolio, h2 {
+  text-align: left;
 
+}
 h2 { 
   margin-top: 30px;
   text-align: center;
@@ -156,46 +107,6 @@ padding-left: 100px;
   float: right;
 
 }
-
-
-/*Styr sektionerna*/
-
-#om {
-
-
-}
-
-#fardigheter {
-  
-
-
-}
-
-#kontakt {
-  
-
-
-}
-
-/*Styr de 3 jumbotronerna*/
-.om {
-  margin-top: 300px;
-
-}
-.fardigheter {
-
-
-}
-.portfolio {
-
-
-}
-
-.kontakt {
-
-
-}
-
 
 /*Styr de 3 bilderna i kontaktjumbotronen*/
 .telefon {
