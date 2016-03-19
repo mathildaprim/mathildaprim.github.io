@@ -13,10 +13,16 @@ body {
   background-attachment: fixed;
 }
 
+
 #myNavbar {
     border-radius: 0px 0px 7px 7px;
     color: black;
     background-color: white;
+        display: inlineblock;
+}
+
+.navbar-brand {
+  color: red;
 }
 
 
@@ -50,7 +56,7 @@ a {
   font-size: 22px;
   text-decoration: none;
   color: #575757;
-  font-family: helvetica, Sans-Serif;
+ 
 
 }
 
@@ -70,6 +76,7 @@ h2 span {
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.3);
    padding: 20px;
+   font-size: 3.0vw;
 }
 
 h3 {
