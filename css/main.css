@@ -135,7 +135,7 @@ padding-left: 100px;
 
 
 /*Styr de 2 bilderna i kunskaperjumbotronen*/
-.skills {
+.tabell {
   float: left;
   width: 50%;
   height: auto;
@@ -144,5 +144,5 @@ padding-left: 100px;
 .intressen {
   height: auto;
   float: left;
-  width: 100%;
+ 
 }
