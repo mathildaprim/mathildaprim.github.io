@@ -135,7 +135,7 @@ padding-left: 100px;
 
 
 /*Styr de 2 bilderna i kunskaperjumbotronen*/
-.tabell {
+.skills {
   float: left;
   width: 50%;
   height: auto;
@@ -144,5 +144,28 @@ padding-left: 100px;
 .intressen {
   height: auto;
   float: left;
+  width: 100%;
+}
+
+
+                                          /*------MEDIA QUERIS--------*/
+/* Extra små enheter, mobiltelefoner */
+@media only screen and (max-width: 480px) {
  
+ .skills {
+  display: inline-block;
+  left: 0px;
+  right: 0px;
+  left: auto;
+  right: auto;
+ }
+
+ .intressen {
+   display: block;
+  left: 0px;
+  right: 0px;
+  left: auto;
+  right: auto;
+ }
+
 }
