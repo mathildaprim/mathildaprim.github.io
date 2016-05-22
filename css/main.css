@@ -18,13 +18,8 @@ body {
     border-radius: 0px 0px 7px 7px;
     color: black;
     background-color: white;
-        display: inlineblock;
+    display: inlineblock;
 }
-
-.navbar-brand {
-  color: red;
-}
-
 
 .circular {
     width: 180px;
