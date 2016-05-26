@@ -101,6 +101,11 @@ padding-left: 100px;
   float: right;
 }
 
+.bildprojekt {
+  width: 60%;
+  float: right;
+}
+
 .bildiphone {
   width: 20%;
   float: right;
