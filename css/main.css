@@ -3,6 +3,92 @@ html {
   overflow: auto;
 }
 
+
+/*===== The CSS =====*/
+.progress{
+  width: 140px;
+  height: 190px;
+  margin: 10px;
+}
+
+/*Färgen på ytan i mitten*/
+.progress .track, .progress .fill{
+  fill: none;
+  stroke-width: 50;
+  transform: translate(290px, 800px)rotate(-120deg);
+
+}
+
+/*Färgen på det som inte är ifyllt runt om*/
+.progress .track{
+  stroke: lightgrey;
+}
+.progress .fill {
+  stroke-linecap: round;
+  stroke-dasharray: 2160;
+  stroke-dashoffset: 2160;
+  transition: stroke-dashoffset 3s;
+}
+
+
+/*Färg på den till höger*/
+.progress.first .fill {
+  stroke: #f8edde;
+}
+
+/*Färg på den till vänster*/
+.progress.second .fill {
+  stroke: #fee3c0;
+}
+
+/*Färg på den till höger*/
+.progress.third .fill {
+  stroke: #feb171;
+}
+
+/*Färg på den till höger*/
+.progress.fourth .fill {
+  stroke: #f68658;
+}
+/*Färg på den till höger*/
+.progress.fifth .fill {
+  stroke: #ab534f;
+}
+
+/*Färg på den till höger*/
+.progress.sixth .fill {
+  stroke: #8b495c;
+}
+
+/*Text och siffor*/
+.progress .value, .progress .text {
+  fill: black;
+  text-anchor: middle;
+}
+
+/*Storlek på text i cirkeln*/
+.progress .value {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/*Texten under saken*/
+.progress .text {
+  font-size: 120px;
+  font-weight: bold;
+
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+
 body {
   min-height: 100%;
   background-image: url('http://mathildaprim.github.io/bilder/bakgrund.png');
@@ -116,6 +202,11 @@ padding-left: 100px;
   float: right;
 
 }
+
+
+
+
+
 
 /*Styr de 3 bilderna i kontaktjumbotronen*/
 .telefon {
