@@ -1,15 +1,21 @@
-/* Set Progress | jQuery
-======================================*/
-/*
-$(document).ready(function(){
-  var max = 150.72259521484375;
-  $.each($('.progress'), function( index, value ){
-    percent = $(value).data('progress');
-    $(value).children($('.fill')).attr('style', 'stroke-dashoffset: ' + ((100 - percent) / 100) * max);
-    $(value).children($('.value')).text(percent + '%');
+
+$(document).ready(function()
+{
+  // suche alle "sections", verstecke sie und
+  // packe sie in die variable "mySections"
+
+  var myNews = $(".text1").hide();
+
+  // nimm die jeweilige "section", verzögere um 700 millisekunden und
+  // fade sie wieder ein
+
+  myNews.each(function ()
+  {
+    $(".text1").fadeIn(3000);
   });
+
 });
-*/
+
 
 
 var forEach = function (array, callback, scope) {
@@ -37,3 +43,5 @@ and set 'stroke-dasharray' and
 console.log(document.querySelector('.fill').getTotalLength());
 
 */
+
+
